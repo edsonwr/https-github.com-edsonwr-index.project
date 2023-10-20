@@ -5,9 +5,9 @@
 :root {
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(82, 60%, 28%);
-  --title-color: hsl(0, 0%, 15%);
-  --text-color: hsl(0, 0%, 35%);
+  --first-color: hsl(82, 43%, 55%);
+  --title-color: hsla(0, 0%, 15%, 0.486);
+  --text-color: hsl(109, 29%, 22%);
   --body-color: hsl(0, 0%, 95%);
   --container-color: hsl(0, 0%, 100%);
 
@@ -34,70 +34,20 @@
 }
 
 
-.iframe-container {
-
-
-   
-   
+div.container{
+  height: 0;
+  position: relative;
+  padding-bottom: 100%;
 }
 
-iframe {
+.div-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 
 }
-
-
-
-
-header {
-  background-color: white;
-  padding: 5px;
-  margin: 2px;
- position: -webkit-sticky; /* Necessário para funcionar no Safari */
-    position: sticky;
-    top: 0;
-}
-
-nav {
-  text-align: center;
-background-color: rgba(131, 40, 70, 0.87);
-padding: 3px;
-position: static;
-
-
-}
-
- nav > a { 
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  margin-right: 30px;
-
- }
-
-  nav > a:hover {
-
- text-decoration: underline;
-
-
-  }
-
-  h1  {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 50px;
-    margin-top: 20px;
-    color: #9e3a2491;
-    font-weight: bold;
-    background-image: ;
-    background-size: cover;
-    background-position: center;
-    padding: 10px;
-
-
-
-  }
-
 
  
 
@@ -116,7 +66,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  z-index:  ;
+  
 }
 
 /*=============== CARD ===============*/
